@@ -386,7 +386,7 @@ export default function Home() {
                                     </motion.h2>
 
                                     <motion.h1
-                                        className="great-vibes-regular mb-6 text-5xl leading-14 text-[var(--pallet-5)]"
+                                        className="great-vibes-regular mb-6 text-6xl leading-14 text-[var(--pallet-5)]"
                                         initial={{ opacity: 0, y: 20 }}
                                         animate={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.6, delay: 0.4 }}
