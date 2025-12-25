@@ -545,7 +545,7 @@ export default function Home() {
 
                                 {/* LOKASI SECTION */}
                                 <section id="location" className="bg-pallet-1 relative flex items-center justify-center px-4 py-16">
-                                    <div className="flex max-w-xl flex-col items-center space-y-6 rounded-xl bg-[radial-gradient(ellipse_at_center,var(--pallet-4)_0%,var(--pallet-5)_70%)] p-4 text-center">
+                                    <div className="flex w-full max-w-xl flex-col items-center space-y-6 rounded-xl bg-[radial-gradient(ellipse_at_center,var(--pallet-4)_0%,var(--pallet-5)_70%)] p-4 text-center">
                                         <motion.h2
                                             className="alice-regular text-lg tracking-widest text-[var(--pallet-1)]"
                                             initial={{ opacity: 0, y: 30 }}
@@ -590,7 +590,7 @@ export default function Home() {
                                     id="gift"
                                     className="relative flex items-center justify-center bg-[radial-gradient(ellipse_at_center,var(--pallet-4)_0%,var(--pallet-5)_70%)] px-4 py-16"
                                 >
-                                    <div className="max-w-xl rounded-t-full" style={{ backgroundImage: `url(${Ornament1})` }}>
+                                    <div className="w-full max-w-xl rounded-t-full" style={{ backgroundImage: `url(${Ornament1})` }}>
                                         <div className="bg-pallet-5-opacity rounded-t-full p-4">
                                             <div className="bg-pallet-1 flex flex-col items-center space-y-6 rounded-t-full border border-[var(--pallet-5)] p-4 text-center">
                                                 <motion.h2
@@ -666,7 +666,7 @@ export default function Home() {
 
                                 {/* UCAPAN SECTION */}
                                 <section id="wishes" className="bg-pallet-1 relative flex items-center justify-center px-4 py-16">
-                                    <div className="flex max-w-xl flex-col items-center space-y-6 rounded-xl bg-[radial-gradient(ellipse_at_center,var(--pallet-4)_0%,var(--pallet-5)_70%)] p-4 text-center">
+                                    <div className="flex w-full max-w-xl flex-col items-center space-y-6 rounded-xl bg-[radial-gradient(ellipse_at_center,var(--pallet-4)_0%,var(--pallet-5)_70%)] p-4 text-center">
                                         <motion.h2
                                             className="alice-regular text-lg tracking-widest text-[var(--pallet-1)]"
                                             initial={{ opacity: 0, y: 30 }}
