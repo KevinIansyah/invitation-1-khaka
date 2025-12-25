@@ -77,11 +77,11 @@ export default function Share({ invitation, defaultMessage }: SharePageProps) {
                                         id="whatsapp_number"
                                         name="whatsapp_number"
                                         type="tel"
-                                        placeholder="08123456789 atau +628123456789"
+                                        placeholder="62xxx"
                                         defaultValue={invitation?.whatsapp_number || ''}
                                         required
                                     />
-                                    <p className="text-sm text-muted-foreground">Format: 08xxx atau +628xxx (nomor Indonesia)</p>
+                                    <p className="text-sm text-muted-foreground">Format: 62xxx (nomor Indonesia)</p>
                                     <InputError message={errors.whatsapp_number} />
                                 </div>
 

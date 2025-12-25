@@ -77,7 +77,7 @@ export function DrawerCreateGuest() {
                                     type="text"
                                     name="contact"
                                     tabIndex={2}
-                                    placeholder="No. HP atau Email"
+                                    placeholder="No. Whatsapp (62xxx)"
                                     value={data.contact}
                                     onChange={(e) => setData('contact', e.target.value)}
                                 />
